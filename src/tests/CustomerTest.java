@@ -2,8 +2,7 @@ package tests;
 
 
 import code.Customer;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 import org.junit.jupiter.api.Assertions;
 
 public class CustomerTest {
