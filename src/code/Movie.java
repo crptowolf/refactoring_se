@@ -20,9 +20,12 @@ public class Movie {
         return title;
     };
 
-    public double getCharge() {
+    public double getCharge(int i) {
         return priceCode;
     }
 
 
+    public int getFrequentRenterPoints(int daysRented) {
+        return Price.getFrequentRenterPoints(daysRented);
+    }
 }
